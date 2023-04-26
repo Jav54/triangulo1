@@ -11,6 +11,37 @@ public class Triangulo {
     private double bx;
     private double by;
 
+    public double getBx() {
+        return bx;
+    }
+
+    public void setBx(double bx) {
+        this.bx = bx;
+    }
+
+    public double getBy() {
+        return by;
+    }
+
+    public void setBy(double by) {
+        this.by = by;
+    }
+
+    public double getX1() {
+        return x1;
+    }
+
+    public void setX1(double x1) {
+        this.x1 = x1;
+    }
+
+    public double getY1() {
+        return y1;
+    }
+
+    public void setY1(double y1) {
+        this.y1 = y1;
+    }
 
     public void ingresarPuntos(){
         Scanner sc = new Scanner(System.in);
